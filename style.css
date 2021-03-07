@@ -1,0 +1,80 @@
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+ 
+input
+{
+    background: grey
+}
+
+.travelmainDiv{
+    border:1px solid #9ea4a8;
+    padding-left:0px;
+    padding-right: 0px;
+    float:none;   
+}
+.travelmainDiv img{
+    width:100%;
+}
+.travelmainDiv hr{
+    width:230px;
+}
+.travelmainDiv h5, .travelmainDiv p{
+    margin-left: 20px;
+}
+.movie_head{
+    font-size:20px;
+    padding:6px 22px;
+    border-radius:10px red;
+    margin-bottom:15px;
+    width:100%;
+    display:inline-block;
+    
+}
+.modal-content{
+    margin-top: 100px;
+}
+.img_modal{
+    display: inline-block;
+}
+.p_modal{
+    margin-top: 10px;
+}
+.modal-body{
+    text-align:center;
+}
+.book{
+    cursor:pointer;
+}
+.book hr{
+    margin-bottom:10px;
+}
+
+.movie_head i{
+    float:right;
+}
+.movie_text span{
+    color:#ff7700;
+}
+.environment_li{
+    margin-top:13px;
+}
+.environment_li h4{
+    border-bottom:1px solid white;
+    padding:8px;
+}
+.environment_li img{
+    border-radius:25px;
+}
+.environment_li p{
+    margin-top:10px;
+}

@@ -1,80 +1,116 @@
-#contact iframe
-{
-    width: 100%;
+#section_1{
+    background: url("Indian-Freedom-Fighters_1400x600.jpg");
+    background-size: cover;
+    
+    width:100%;
+    height:600px;
+    margin:0px;
 }
-.contact_1 h3
-{
-    display: inline;
+body{
+    background:linear-gradient(to right ,orange,white,green);
 }
-.contact_1 a
-{
-    text-shadow: none;
+h1{
+   position:absolute;
+   margin-top: 350px;
+   margin-left: 760px;
+   font-family: 'Lobster', cursive;
+   font-size: 75px;
+   color:linear-gradient("to right, orange,white, green");
 }
- 
-input
-{
-    background: grey
+p{
+    font-size:25px;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .image {
+    flex-basis: 40%
+    
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  h2{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+  }
+  p{font-family: 'Fredoka One', cursive;
+}
+#cele{
+    font-family: 'Cinzel', serif;
+color:blue;
+}
+.celebrated{
+    width:500px;
+    height: 350px;
+    opacity: 0.7;
+    background: url("download.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-items: center;
+    float:left;
+}
+.celebrated2{
+    width:500px;
+    margin-left: 50%;
+    height: 350px;
+    opacity: 0.7;
+    background: url("919359-modi-flag.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-items: center;
+}
+.celebrated2 button{
+    position: absolute;
+    font-family: 'Ultra', serif;
 
-.travelmainDiv{
-    border:1px solid #9ea4a8;
-    padding-left:0px;
-    padding-right: 0px;
-    float:none;   
+    margin-top: 205px;
+    margin-left: 15%;
+    border-radius: 20px;
 }
-.travelmainDiv img{
-    width:100%;
+.ambaniimg{
+    height:300px;
+    width:350px;
 }
-.travelmainDiv hr{
-    width:230px;
+.img{
+    height:400px;
+    width:450px;
 }
-.travelmainDiv h5, .travelmainDiv p{
-    margin-left: 20px;
-}
-.movie_head{
-    font-size:20px;
-    padding:6px 22px;
-    border-radius:10px red;
-    margin-bottom:15px;
-    width:100%;
-    display:inline-block;
+.celebrated2 h4{
+   
+    position: absolute;
+    margin-top: 175px;
+    font-family: 'Ultra', serif;
+    color:darkblue;
+    margin-left: 80px;
     
 }
-.modal-content{
-    margin-top: 100px;
+.celebrated h4{
+   
+    position: absolute;
+    margin-top: 175px;
+    font-family: 'Ultra', serif;
+    color:darkblue;
+    margin-left: 80px;
+    
 }
-.img_modal{
-    display: inline-block;
+.my_nav_bar{
+    background-color:peru;
+    font-family:'Fredoka One', cursive;
+    color:white;
 }
-.p_modal{
-    margin-top: 10px;
-}
-.modal-body{
-    text-align:center;
-}
-.book{
-    cursor:pointer;
-}
-.book hr{
-    margin-bottom:10px;
-}
+.celebrated button{
+    position: absolute;
+    font-family: 'Ultra', serif;
 
-.movie_head i{
-    float:right;
+    margin-top: 205px;
+    margin-left: 15%;
+    border-radius: 20px;
 }
-.movie_text span{
-    color:#ff7700;
-}
-.environment_li{
-    margin-top:13px;
-}
-.environment_li h4{
-    border-bottom:1px solid white;
-    padding:8px;
-}
-.environment_li img{
-    border-radius:25px;
-}
-.environment_li p{
-    margin-top:10px;
+.celebrated button:hover{
+background-color: darkgreen;
 }
